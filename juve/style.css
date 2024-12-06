@@ -1,0 +1,581 @@
+body {
+    background-color: #f4f4f4; /* Light grey background */
+    /* Or use a Juventus-themed background image */
+    background-image: url('juve-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+h1, h2, h3 {
+    color: #dfb331; /* Juventus yellow color */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.3);
+}
+/* Ensure the body takes full height of the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  /* Centering the logo */
+  .logo-container {
+    display: flex;
+    justify-content: center;   /* Horizontally centers the logo */
+    align-items: center;       /* Vertically centers the logo */
+    height: 30vh;             /* Full viewport height */
+  }
+  
+  /* Optional: Adjust the logo size */
+  #juve-logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+}
+#history {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+
+#history ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#history li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#history li strong {
+    color: #f1c40f;
+}
+/* Style for the Famous Players section */
+#famous-players {
+    background-color: #f4f4f4; /* Light background */
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#famous-players h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Container to arrange players' names and images */
+.players-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Each player card */
+.player-card {
+    background-color: #fff;
+    border: 2px solid #f1c40f; /* Juventus yellow */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Player card hover effect */
+.player-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Player image styles */
+.player-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Player name styles */
+.player-card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Player description text */
+.player-card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Style for the Rivalries section */
+#rivalries {
+    background-color: #ecf0f1; /* Light grey background */
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#rivalries h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Container to arrange rivalry items */
+.rivalry-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Each rivalry card */
+.rivalry-card {
+    background-color: #fff;
+    border: 2px solid #f1c40f; /* Juventus yellow */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Rivalry card hover effect */
+.rivalry-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Rivalry image styles */
+.rivalry-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Rivalry title styles */
+.rivalry-card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Rivalry description text */
+.rivalry-card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Style for the Biggest Games section */
+#biggest-games {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#biggest-games h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Container to arrange the game cards */
+.games-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Each game card */
+.game-card {
+    background-color: #fff;
+    border: 2px solid #f1c40f; /* Juventus yellow */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Game card hover effect */
+.game-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Game image styles */
+.game-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Game title styles */
+.game-card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Game description text */
+.game-card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* Style for the Legendary Coaches section */
+#legendary-coaches {
+    background-color: #fff; /* White background for clarity */
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#legendary-coaches h2 {
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Container to arrange the coach cards */
+.coach-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Each coach card */
+.coach-card {
+    background-color: #f1f1f1;
+    border: 2px solid #f1c40f; /* Juventus yellow */
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Coach card hover effect */
+.coach-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Coach image styles */
+.coach-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Coach name styles */
+.coach-card h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Coach description text */
+.coach-card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}/* Style for the History Timeline section */
+#history-timeline {
+    background-color: #fff; /* White background for clarity */
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#history-timeline h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Container for the timeline events */
+.timeline-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+
+/* Vertical line to represent the timeline */
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 100%;
+    border-left: 2px solid #f1c40f; /* Yellow line for ladder */
+    width: 0;
+}
+
+/* Event Style */
+.timeline-event {
+    background-color: #f9f9f9;
+    border: 2px solid #f1c40f; /* Yellow border */
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    width: 45%;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Align odd events to the left and even events to the right */
+.timeline-event:nth-child(odd) {
+    left: 0;
+}
+
+.timeline-event:nth-child(even) {
+    left: 50%;
+}
+
+/* Event Year and Text Styles */
+.timeline-event h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+.timeline-event p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+/* Styling for the Trophies Table */
+#juve-trophies {
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+#juve-trophies h2 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Styling for the table */
+.trophy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.trophy-table th, .trophy-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Header row */
+.trophy-table th {
+    background-color: #f1c40f; /* Juventus yellow */
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Table rows */
+.trophy-table td {
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Hover effect for rows */
+.trophy-table tr:hover {
+    background-color: #f1c40f; /* Highlight row in yellow */
+    color: #fff;
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+    .trophy-table {
+        font-size: 14px;
+    }
+    .trophy-table th, .trophy-table td {
+        padding: 10px;
+    }
+}
+#juve-player-stats {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+#juve-player-stats h2 {
+    color: #333;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.stats-table th, .stats-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.stats-table th {
+    background-color: #f1c40f;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.stats-table td {
+    background-color: #f9f9f9;
+    color: #333;
+    font-size: 16px;
+}
+
+.stats-table tr:hover {
+    background-color: #f1c40f;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .stats-table {
+        font-size: 14px;
+    }
+    .stats-table th, .stats-table td {
+        padding: 10px;
+    }
+    /* Styling for the season results section */
+#season-results {
+    font-family: Arial, sans-serif;
+    margin: 40px auto;
+    max-width: 900px;
+    text-align: center;
+  }
+  
+  #season-results h2 {
+    font-size: 2em;
+    color: #111;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #000;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  #season-results table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #season-results th, #season-results td {
+    padding: 15px 10px;
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+  }
+  
+  #season-results th {
+    background-color: #111;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  #season-results tr:nth-child(even) {
+    background-color: #fffefe;
+  }
+  
+  #season-results tr:hover {
+    background-color: #d0d316;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #season-results td {
+    border-bottom: 1px solid #9cac10;
+  }
+  
+  #season-results td:last-child {
+    font-weight: bold;
+    color: #000000;
+  }
+  
+}
+#credits {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 40px;
+    border-top: 2px solid #333;
+}
+
+#credits p {
+    margin: 5px 0;
+}
+
+#credits strong {
+    color: #333;
+}
+
